@@ -7,42 +7,150 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="/css/core.css">
 	<link rel="stylesheet" href="/css/navbar.css">
+	<link rel="stylesheet" href="index.css">
 
 	<title>Fezmart</title>
 </head>
 
 <body>
+	<nav class="navbar">
+		<div class="nav-logo">
+			<a href="index.html">🧩 FEZ<span class="colored-text">MART</span></a>
+		</div>
+
+		<div class="nav-menu">
+			<ul class="list-spaced">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="/pages/products/product.html">Boots</a></li>
+				<li><a href="/pages/products/product.html">Clothing</a></li>
+				<li><a href="/pages/products/product.html">Accessories</a></li>
+			</ul>
+
+		</div>
+		<div class="nav-icons">
+			<a href="/pages/login/login.html" class="badge badge-on-icon">
+				<box-icon name='user-circle'></box-icon>
+			</a>
+			<a href="/pages/wishlist/wishlist.html" class="badge badge-on-icon">
+				<box-icon class="icon" name='heart'></box-icon>
+				<span class="badge-number">10</span>
+			</a>
+			<a href="/pages/cart/cart.html" class="badge badge-on-icon">
+				<box-icon name='cart'></box-icon>
+				<span class="badge-number">4</span>
+			</a>
+		</div>
+	</nav>
 	<div class="wrapper">
-		<nav class="navbar">
-			<div class="nav-logo">
-				<a href="index.html">🧩 FEZ<span class="colored-text">MART</span></a>
-			</div>
 
-			<div class="nav-menu">
-				<ul class="list-spaced">
-					<li>Home</li>
-					<li>Boots</li>
-					<li>Clothing</li>
-					<li>Accessories</li>
-				</ul>
+
+		<div class="hero-section">
+			<img class="img-responsive" src="/assets/football-boot-guide.jpg" alt="responsive-image">
+			<div class="hero-text">
+				<div class="fw-400 text-md">LATEST</div>
+				<h2 class="h2">Fall '22 Season<br> Collection</h2><a href="/h2/products/product.html">
+					<button class="btn btn-primary">View</button></a>
 
 			</div>
-			<div class="nav-icons">
-				<a href="/pages/login/login.html" class="badge badge-on-icon">
-					<box-icon name='user-circle'></box-icon>
-				</a>
-				<a href="/pages/wishlist/wishlist.html" class="badge badge-on-icon">
-					<box-icon class="icon" name='heart'></box-icon>
-					<span class="badge-number">10</span>
-				</a>
-				<a href="/pages/cart/cart.html" class="badge badge-on-icon">
-					<box-icon name='cart'></box-icon> 
-					<span class="badge-number">4</span>
-				</a>
+		</div>
+
+		<div class="category-container">
+			<h1 class="category-title">Explore Categories</h1>
+			<div class="category-buttons">
+				<button class="btn outline-dark">Turf</button>
+				<button class="btn outline-dark">Firm ground</button>
+				<button class="btn outline-dark">Grass</button>
+				<button class="btn outline-dark">Synthetic</button>
+				<button class="btn outline-dark">Indoor</button>
+			</div>
+		</div>
+
+		<div class="card-container">
+			<h1 class="category-title">Popular Right Now</h1>
+			<div class="cards-list grid">
+				<div class="card card-vertical">
+					<div class="card-image"><img src="/assets/KM-mercurial.jpg">
+					</div>
+
+					<div class="card-floating-icon">
+						<box-icon name='heart'></box-icon>
+					</div>
+
+					<div class="card-body">
+						<h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+						<p class="card-subtitle">Football boot</p>
+						<div class="card-price">
+							<span class="price-after-discount">₹4599</span>
+							<span class="price-before-discount">₹7999</span>
+							<span class="discount">60% off</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card card-vertical">
+					<div class="card-image"><img src="/assets/phantom-g2.jpg">
+					</div>
+
+					<div class="card-floating-icon">
+						<box-icon name='heart'></box-icon>
+					</div>
+
+					<div class="card-body">
+						<h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+						<p class="card-subtitle">Football boot</p>
+						<div class="card-price">
+							<span class="price-after-discount">₹4599</span>
+							<span class="price-before-discount">₹7999</span>
+							<span class="discount">60% off</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card card-vertical">
+					<div class="card-image"><img src="/assets/mercurial-vapor.jpg">
+					</div>
+
+					<div class="card-floating-icon">
+						<box-icon name='heart'></box-icon>
+					</div>
+
+					<div class="card-body">
+						<h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+						<p class="card-subtitle">Football boot</p>
+						<div class="card-price">
+							<span class="price-after-discount">₹4599</span>
+							<span class="price-before-discount">₹7999</span>
+							<span class="discount">60% off</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="card card-vertical">
+					<div class="card-image"><img src="/assets/phantom-turf.jpg">
+					</div>
+
+					<div class="card-floating-icon">
+						<box-icon name='heart'></box-icon>
+					</div>
+
+					<div class="card-body">
+						<h3 class="card-title">Nike Phantom Turf</h3>
+						<p class="card-subtitle">Football boot</p>
+						<div class="card-price">
+							<span class="price-after-discount">₹4599</span>
+							<span class="price-before-discount">₹7999</span>
+							<span class="discount">60% off</span>
+						</div>
+					</div>
+				</div>
 			</div>
 
 
-		</nav>
+		</div>
+<footer>
+	<h1>⚽👟🤙</h1>
+</footer>
+
 		<script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
 </body>
 
