@@ -1,11 +1,15 @@
 .navbar {
+  /* margin-top: 1rem; */
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   padding: 1rem;
   padding-right: 2rem;
-  box-shadow: 0 10px 50px -15px var(--grey);
+  position: fixed;
+  z-index: 5;
+  background-color: var(--bg-white);
+  box-shadow: 40px 20px 80px 15px var(--grey);
 }
 
 .colored-text {
@@ -70,7 +74,7 @@
   background-color: var(--bg-white);
   border: 1px solid var(--black);
 }
-.list-spaced li:hover{
+.list-spaced a:hover{
   cursor: pointer;
   color: var(--mint-green);
   transition: all 0.25s ease-in-out
