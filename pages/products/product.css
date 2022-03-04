@@ -81,6 +81,7 @@
 
 .btn-primary:hover {
   background-color: var(--mint-green-hover);
+  transition: all 0.3s ease-in-out;
 }
 
 .card-container {
