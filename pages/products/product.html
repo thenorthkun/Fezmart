@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/core.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="product.css">
+
+    <title>Fezmart</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="/index.html">🧩 FEZ<span class="colored-text">MART</span></a>
+        </div>
+
+        <div class="nav-menu">
+            <ul class="list-spaced">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/pages/products/product.html">Boots</a></li>
+                <li><a href="/pages/products/product.html">Clothing</a></li>
+                <li><a href="/pages/products/product.html">Accessories</a></li>
+            </ul>
+
+        </div>
+        <div class="nav-icons">
+            <a href="/pages/login/login.html" class="badge badge-on-icon">
+                <box-icon name='user-circle'></box-icon>
+            </a>
+            <a href="/pages/wishlist/wishlist.html" class="badge badge-on-icon">
+                <box-icon class="icon" name='heart'></box-icon>
+                <span class="badge-number">10</span>
+            </a>
+            <a href="/pages/cart/cart.html" class="badge badge-on-icon">
+                <box-icon name='cart'></box-icon>
+                <span class="badge-number">4</span>
+            </a>
+        </div>
+    </nav>
+    <div class="wrapper">
+
+        <div class="sidebar">
+            <div class="sidebar-list">
+
+                <div class="sidebar-heading">
+                    <span class="title">FILTERS</span>
+                    <span class="clear-btn">CLEAR ALL</span>
+                </div>
+                <div class="divider"></div>
+
+                <div class="filter-container">
+                    <span class="filter-title">Brands</span>
+                    <div class="filter-list">
+                        <label><input type="checkbox"> Nike</label>
+                        <label><input type="checkbox"> Adidas</label>
+                        <label><input type="checkbox"> Puma</label>
+                        <label><input type="checkbox"> NB Football</label>
+                        <label><input type="checkbox"> Under Armour</label>
+
+                    </div>
+                </div>
+
+                <div class="filter-container">
+                    <span class="filter-title">Categories</span>
+                    <div class="filter-list">
+                        <label><input type="checkbox"> Boots</label>
+                        <label><input type="checkbox"> Jerseys</label>
+                        <label><input type="checkbox"> Kits</label>
+                        <label><input type="checkbox"> Stockings</label>
+                        <label><input type="checkbox"> Shorts</label>
+                    </div>
+                </div>
+
+                <div class="filter-container">
+                    <span class="filter-title">Sort by</span>
+                    <div class="filter-list">
+                        <label><input type="radio"> Price - Low to High
+                        </label>
+                        <label><input type="radio"> Price - High to Low
+                        </label>
+                    </div>
+                </div>
+
+                <div class="filter-container">
+                    <span class="filter-title">Price</span>
+                    <div class="filter-list">
+                        <label><input type="checkbox"> Under ₹3,000</label>
+                        <label><input type="checkbox"> ₹5,000 - ₹10,000</label>
+                        <label><input type="checkbox"> ₹10,000 - ₹15,000</label>
+                        <label><input type="checkbox">  ₹15,000 and above</label>
+                    </div>
+                </div>
+
+                <div class="filter-container">
+                    <span class="filter-title">Rating</span>
+                    <div class="filter-list">
+                        <label><input type="checkbox"> 4.0 and above</label>
+                        <label><input type="checkbox"> 3.0 and above</label>
+                        <label><input type="checkbox"> 2.0 and above</label>
+                        <label><input type="checkbox">  Below 2.0</label>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="card-container">
+            <div class="cards-list grid">
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/phantom-g2.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Phantom GT 2</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/mercurial-vapor.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial Vapor</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/phantom-turf.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Phantom Turf</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/mercurial-vapor.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card card-vertical">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-floating-icon">
+                        <box-icon name='heart'></box-icon>
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot</p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹4599</span>
+                            <span class="price-before-discount">₹7999</span>
+                            <span class="discount">60% off</span>
+                        </div>
+                        <div class="btn-box">
+                            <button class="btn btn-primary">
+                                Add to bag
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+        </div>
+
+        <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+</body>
+
+
+
+</html>
