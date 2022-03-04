@@ -21,9 +21,11 @@ ul{
   --mint-green: #03fc96;
   --black: #000000;
   --light-blue: #a3cdf4;
+  --dark-blue: #0960b2;
   --yellow: #f1f15d;
   --red: #ff0000;
   --orange: #f97316;
+  --charcol: #323232;
 
   --bg-grey: #f1f1f1;
   --bg-white: #ffffff;
@@ -46,4 +48,6 @@ ul{
 .wrapper {
   display: flex;
   flex-direction: column;
+  padding-left: 6rem;
+  padding-right: 6rem;
 }
