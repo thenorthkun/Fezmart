@@ -1,0 +1,96 @@
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 105vh;
+  padding: 0 4rem;
+}
+
+.login-container .colored-text {
+  color: var(--mint-green);
+  font-size: 3rem;
+}
+
+.login-form {
+  height: max-content;
+  min-height: 22rem;
+  width: 30rem;
+  max-width: 98%;
+  background: var(--off-white);
+  border: 1px solid var(--grey);
+  border-radius: 3px;
+  padding-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.form-title {
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: -0.04em;
+  line-height: 4rem;
+  text-align: center;
+}
+
+.form-subtitle {
+  text-align: center;
+  font-size: 0.875rem;
+}
+
+.login-fields {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  display: flex;
+  flex-direction: column;
+  padding-top: 1.5rem;
+}
+
+.login-fields input {
+  padding: 0.6rem 1.2rem;
+  width: 100%;
+  border: 1.5px solid var(--grey);
+  margin-bottom: 1rem;
+}
+
+.login-extra {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.875rem;
+  margin: 1rem 1.2rem 1.2rem;
+}
+
+.btn {
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-weight: 600;
+  padding: 0.8rem 1.2rem;
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn-primary {
+  background-color: var(--mint-green);
+}
+.btn-primary:hover {
+  background-color: var(--mint-green-hover);
+}
+.forgot-password {
+  color: var(--dark-blue);
+  cursor: pointer;
+}
+
+.login-footer {
+  cursor: pointer;
+  margin: 1rem 0.5rem;
+  text-align: center;
+  font-size: 0.8rem;
+}
+
+.sign-up {
+  font-size: 0.875rem;
+  font-weight: 600;
+}
