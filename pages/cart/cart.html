@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/core.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="cart.css">
+
+    <title>Fezmart</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="/index.html">🧩 FEZ<span class="colored-text">MART</span></a>
+        </div>
+
+        <div class="nav-menu">
+            <ul class="list-spaced">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="/pages/products/product.html">Boots</a></li>
+                <li><a href="/pages/products/product.html">Clothing</a></li>
+                <li><a href="/pages/products/product.html">Accessories</a></li>
+            </ul>
+
+        </div>
+        <div class="nav-icons">
+            <a href="/pages/login/login.html" class="badge badge-on-icon">
+                <box-icon name='user-circle'></box-icon>
+            </a>
+            <a href="/pages/wishlist/wishlist.html" class="badge badge-on-icon">
+                <box-icon class="icon" name='heart'></box-icon>
+                <span class="badge-number">10</span>
+            </a>
+            <a href="/pages/cart/cart.html" class="badge badge-on-icon">
+                <box-icon name='cart'></box-icon>
+                <span class="badge-number">4</span>
+            </a>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <h1 class="category-title">Your Cart<span class="colored-text">.</h1>
+        <div class="cart-container">
+            <div class="cart-list">
+                <div class="card card-horizontal">
+                    <div class="card-image"><img src="/assets/mercurial-vapor.jpg">
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial Vapor</h3>
+                        <p class="card-subtitle">Football boot </p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹6599</span>
+                            <span class="price-before-discount">₹8999</span>
+                            <span class="discount">30% off</span>
+                        </div>
+
+                        <button class="btn btn-primary">Move to Wishlist
+                        </button>
+
+                        <button class="btn btn-secondary">Remove from Cart
+                        </button>
+
+                    </div>
+
+                </div>
+                <br>
+
+                <div class="card card-horizontal">
+                    <div class="card-image"><img src="/assets/KM-mercurial.jpg">
+                    </div>
+
+                    <div class="card-body">
+                        <h3 class="card-title">Nike Mercurial 8 'KM'</h3>
+                        <p class="card-subtitle">Football boot </p>
+                        <div class="card-price">
+                            <span class="price-after-discount">₹6599</span>
+                            <span class="price-before-discount">₹8999</span>
+                            <span class="discount">30% off</span>
+                        </div>
+
+                        <button class="btn btn-primary">Move to Wishlist
+                        </button>
+
+                        <button class="btn btn-secondary">Remove from Cart
+                        </button>
+
+                    </div>
+
+                </div>
+            </div>
+            <div class="cart-bill">
+                <div class="cart-title">Total Bill<span></span></div>
+                <div class="divider"></div>
+                <div class="cart-item">
+                    <p class="cart-text">Price (2 items)</p>
+                    <p class="value">₹13,198</p>
+                </div>
+                <div class="cart-item">
+                    <p class="cart-text">Discount</p>
+                    <p class="discount-value">-3000</p>
+                </div>
+                <div class="cart-item">
+                    <p class="cart-text">Delivery Charges</p>
+                    <p class="value">FREE</p>
+                </div>
+                <div class="cart-item">
+                    <p class="cart-text">Tax & Charges</p>
+                    <p class="value">₹69</p>
+                </div>
+                <div class="divider"></div>
+                <div class="cart-item">
+                    <p class="cart-total">Total Amount</p>
+                    <p class="cart-total">₹9999</p>
+                </div>
+
+                <button class="btn btn-primary">Place Order</button>
+
+            </div>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+</body>
+
+
+
+</html>
