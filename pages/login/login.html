@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/core.css">
+    <link rel="stylesheet" href="/css/navbar.css">
+    <link rel="stylesheet" href="login.css">
+
+    <title>Fezmart</title>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="nav-logo">
+            <a href="/index.html">🧩 FEZ<span class="colored-text">MART</span></a>
+        </div>
+
+        <div class="nav-menu">
+            <ul class="list-spaced">
+                <li><a href="/index.html">Home</a></li>
+                <li><a href="/pages/products/product.html">Boots</a></li>
+                <li><a href="/pages/products/product.html">Clothing</a></li>
+                <li><a href="/pages/products/product.html">Accessories</a></li>
+            </ul>
+
+        </div>
+        <div class="nav-icons">
+            <a href="/pages/login/login.html" class="badge badge-on-icon">
+                <box-icon name='user-circle'></box-icon>
+            </a>
+            <a href="/pages/wishlist/wishlist.html" class="badge badge-on-icon">
+                <box-icon class="icon" name='heart'></box-icon>
+                <span class="badge-number">10</span>
+            </a>
+            <a href="/pages/cart/cart.html" class="badge badge-on-icon">
+                <box-icon name='cart'></box-icon>
+                <span class="badge-number">4</span>
+            </a>
+        </div>
+    </nav>
+    <div class="wrapper">
+        <div class="login-container">
+            <div class="login-form">
+                <div class="form-title">Login<span class="colored-text">.</span></div>
+                <div class="form-subtitle">Enter your username & password.</div>
+                <div class="login-fields">
+                    <input type="email" placeholder="Email" name="email" required="">
+                    <input type="password" placeholder="Password" required="">
+                </div>
+                <div class="login-extra">
+                    <label class="checkbox-label" for="checkbox">
+                        <input class="checkbox" type="checkbox" name="checkbox"> Remember me
+                    </label>
+                    <div class="forgot-password">Forgot your password?</div>
+                </div>
+                <button class="btn btn-primary" href="#">LOGIN</button>
+                <div class="login-footer">Don't have an account? <a href="/pages/signup/signup.html"><span class="sign-up">Sign up</span></a></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/boxicons@2.1.1/dist/boxicons.js"></script>
+</body>
+
+
+
+</html>
