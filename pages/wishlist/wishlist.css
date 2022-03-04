@@ -32,7 +32,7 @@
     height: max-content;
     border-radius: 4px;
     background: var(--bg-white);
-    border: 1px solid var(--off-grey);
+    border: 1px solid var(--grey);
     position: relative;
     cursor: pointer;
     overflow: hidden;
